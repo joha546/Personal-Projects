@@ -1,0 +1,10 @@
+gTTS
+numpy
+opencv_python
+Pillow
+protobuf
+python-dotenv
+SpeechRecognition
+streamlit
+streamlit_webrtc
+google-generativeai
