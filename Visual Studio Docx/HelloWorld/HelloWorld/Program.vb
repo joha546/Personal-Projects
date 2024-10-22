@@ -7,8 +7,7 @@ Module Program
         Dim username = Console.ReadLine()
         Console.WriteLine("Hello " + username + "!")
 
-        Dim now = Date.Now
-        Dim dayofYear = now.DayOfYear
+        Dim dayofYear = Date.Now.DayOfYear
         Console.Write("Day of Year: ")
         Console.WriteLine(dayofYear)
 
