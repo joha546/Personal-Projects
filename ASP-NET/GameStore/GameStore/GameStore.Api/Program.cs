@@ -25,9 +25,11 @@ List<GameDto> games = [
     )
 ];
 
+// GET /games
 app.MapGet("games", () => games);   // Implemented Minimal Api.
-app.MapGet("/", () => "Hello World!");   // Handler
 
+// GET /games/1
+app.MapGet("games/{id}", (int id) => games.Find(game => game.Id == id));
 app.Run();
 
 // from line 2 to 6 is configurations line.
