@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\MVC-Pattern.csproj",
-      "projectName": "MVC-Pattern",
-      "projectPath": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\MVC-Pattern.csproj",
+      "projectUniqueName": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\RunGroup.csproj",
+      "projectName": "RunGroup",
+      "projectPath": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\RunGroup.csproj",
       "packagesPath": "C:\\Users\\joh60\\.nuget\\packages\\",
       "outputPath": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\obj\\",
       "projectStyle": "PackageReference",

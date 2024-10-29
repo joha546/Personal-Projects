@@ -1,4 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
+// register services with the dependency injection container using builder object here.
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
