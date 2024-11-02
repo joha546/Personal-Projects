@@ -1,7 +1,9 @@
-﻿namespace MVC_Pattern.Data
+﻿using Microsoft.EntityFrameworkCore;
+namespace MVC_Pattern.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+
 
     }
 }

@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC-Pattern.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MVC-Pattern.bundle.scp.css"
+      "Id": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RunGroup.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RunGroup.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\wwwroot\\.gitignore",
+      "PackagePath": "staticwebassets\\.gitignore"
     },
     {
       "Id": "G:\\Personal-Projects\\ASP-NET\\MVC-Pattern\\MVC-Pattern\\wwwroot\\css\\site.css",
@@ -245,20 +249,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC-Pattern.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RunGroup.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVC-Pattern.props",
-      "PackagePath": "build\\MVC-Pattern.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RunGroup.props",
+      "PackagePath": "build\\RunGroup.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC-Pattern.props",
-      "PackagePath": "buildMultiTargeting\\MVC-Pattern.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RunGroup.props",
+      "PackagePath": "buildMultiTargeting\\RunGroup.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVC-Pattern.props",
-      "PackagePath": "buildTransitive\\MVC-Pattern.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RunGroup.props",
+      "PackagePath": "buildTransitive\\RunGroup.props"
     }
   ],
   "ElementsToRemove": []
