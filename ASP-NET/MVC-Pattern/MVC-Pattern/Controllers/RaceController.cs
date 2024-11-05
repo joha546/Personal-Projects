@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using MVC_Pattern.Data;
 using MVC_Pattern.Models;
@@ -15,6 +16,11 @@ namespace MVC_Pattern.Controllers
         {
             List<Race> races = _context.Races.ToList();
             return View(races);
+        }
+        public IActionResult Detail(int id)
+        {
+            Race race = _context.Races.Include(a => a.Address).FirstOrDefault(c => c.Id == id);
+            return View(race);
         }
     }
 }
